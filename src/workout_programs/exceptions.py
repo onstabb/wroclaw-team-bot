@@ -1,0 +1,2 @@
+class WeekProgramAlreadyExists(Exception):
+    pass

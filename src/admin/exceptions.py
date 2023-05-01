@@ -1,0 +1,2 @@
+class ExcelConversionError(Exception):
+    pass

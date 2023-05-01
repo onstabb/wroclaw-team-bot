@@ -1,0 +1,235 @@
+# English translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-05-01 21:14+0200\n"
+"PO-Revision-Date: 2023-04-27 00:06+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: src/keys.py:32
+msgid "button_main_menu"
+msgstr "Main menu"
+
+#: src/keys.py:35
+msgid "button_find_exercise"
+msgstr ""
+
+#: src/keys.py:36
+msgid "button_get_program"
+msgstr ""
+
+#: src/keys.py:37
+msgid "button_get_individual_program"
+msgstr ""
+
+#: src/keys.py:40
+msgid "button_admin_panel"
+msgstr ""
+
+#: src/keys.py:41
+msgid "button_add_exercise"
+msgstr ""
+
+#: src/keys.py:42
+msgid "button_add_current_week_program"
+msgstr ""
+
+#: src/keys.py:43
+msgid "button_add_next_week_program"
+msgstr ""
+
+#: src/keys.py:44
+msgid "button_add_individual_program"
+msgstr ""
+
+#: src/admin/handlers.py:35
+msgid "new_admin_successfully_added"
+msgstr ""
+
+#: src/admin/handlers.py:48
+msgid "admin_panel_main"
+msgstr ""
+
+#: src/admin/handlers.py:59
+msgid "entry_add_exercise_form"
+msgstr ""
+
+#: src/admin/handlers.py:59 src/admin/handlers.py:74
+msgid "add_exercise_rules"
+msgstr ""
+
+#: src/admin/handlers.py:73
+msgid "error_incorrect_exercise_input"
+msgstr ""
+
+#: src/admin/handlers.py:89
+msgid "exercise_is_already_exists"
+msgstr ""
+
+#: src/admin/handlers.py:93
+msgid "exercise_successfully_added"
+msgstr ""
+
+#: src/admin/handlers.py:100
+msgid "admin_panel_entry_add_next_week_program"
+msgstr ""
+
+#: src/admin/handlers.py:105
+msgid "admin_panel_entry_add_current_week_program"
+msgstr ""
+
+#: src/admin/handlers.py:114 src/admin/handlers.py:155
+msgid "error_workout_week_program_already_exists"
+msgstr ""
+
+#: src/admin/handlers.py:120
+msgid "add_workout_program_rules"
+msgstr ""
+
+#: src/admin/handlers.py:158
+msgid "workout_program_successfully_added"
+msgstr ""
+
+#: src/entry/handlers.py:17
+msgid "main_menu_placeholder"
+msgstr ""
+
+#: src/entry/handlers.py:24
+msgid "entry_welcome_message {full_name}"
+msgstr ""
+
+#: src/entry/handlers.py:31
+msgid "entry_test"
+msgstr ""
+
+#: src/exercises/handlers.py:18
+msgid "input_exercise_name_placeholder"
+msgstr ""
+
+#: src/exercises/handlers.py:23
+msgid "exercises_input_name_message"
+msgstr ""
+
+#: src/exercises/handlers.py:24
+msgid "exercises_count {count}"
+msgstr ""
+
+#: src/exercises/handlers.py:39
+msgid "error_exercise_not_found"
+msgstr ""
+
+#: src/exercises/handlers.py:48
+msgid "exercises_multiple_result_search_query"
+msgstr ""
+
+#: src/workout_programs/handlers.py:17
+msgid "error_no_actual_workout_week_program_exists"
+msgstr ""
+
+#: src/workout_programs/handlers.py:22
+msgid "workout_program_is_actual"
+msgstr ""
+
+#~ msgid "Admin panel opened!"
+#~ msgstr ""
+
+#~ msgid "Find exercise"
+#~ msgstr ""
+
+#~ msgid "Get program"
+#~ msgstr ""
+
+#~ msgid "Get individual program"
+#~ msgstr ""
+
+#~ msgid "Admin panel"
+#~ msgstr ""
+
+#~ msgid "Add exercise"
+#~ msgstr ""
+
+#~ msgid "Update exercise"
+#~ msgstr ""
+
+#~ msgid "Del exercise"
+#~ msgstr ""
+
+#~ msgid "Add program"
+#~ msgstr ""
+
+#~ msgid "Add individual program"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add new video of exercise with "
+#~ "caption where first paragraph is a "
+#~ "name and after is description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Incorrect form of caption.\n"
+#~ "Must be:\n"
+#~ "*Video*\n"
+#~ "Name\n"
+#~ "Description... (Optional)"
+#~ msgstr ""
+
+#~ msgid "This exercise is already exists!"
+#~ msgstr ""
+
+#~ msgid "Successfully added!"
+#~ msgstr ""
+
+#~ msgid "error_workout_program_duplicate"
+#~ msgstr ""
+
+#~ msgid "Main menu"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hello, {user}!\n"
+#~ "Good time for workout!"
+#~ msgstr ""
+
+#~ msgid "There is nothing there..."
+#~ msgstr ""
+
+#~ msgid "Please input exercise name:"
+#~ msgstr ""
+
+#~ msgid "Exercise not found"
+#~ msgstr ""
+
+#~ msgid "exercises_input_name"
+#~ msgstr ""
+
+#~ msgid "main_menu"
+#~ msgstr ""
+
+#~ msgid "exercises_exercise_not_found"
+#~ msgstr ""
+
+#~ msgid "error_no_workout_programs_exists"
+#~ msgstr ""
+
+#~ msgid "workout_program_is_actual"
+#~ msgstr ""
+
+#~ msgid "workout_program_is_old_for_{weeks}_weeks"
+#~ msgstr ""
+
+#~ msgid "workout_program_is_for_future"
+#~ msgstr ""
+

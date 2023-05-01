@@ -1,0 +1,168 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-05-01 21:14+0200\n"
+"PO-Revision-Date: 2023-04-27 00:10+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: src/keys.py:32
+msgid "button_main_menu"
+msgstr "Главное меню"
+
+#: src/keys.py:35
+msgid "button_find_exercise"
+msgstr "Найти упражнение"
+
+#: src/keys.py:36
+msgid "button_get_program"
+msgstr "Получи программу тренировки"
+
+#: src/keys.py:37
+msgid "button_get_individual_program"
+msgstr "Получить индивидуальную программу"
+
+#: src/keys.py:40
+msgid "button_admin_panel"
+msgstr "Админ панель"
+
+#: src/keys.py:41
+msgid "button_add_exercise"
+msgstr "Добавь упражнение"
+
+#: src/keys.py:42
+msgid "button_add_current_week_program"
+msgstr "Добавь программу на эту неделю"
+
+#: src/keys.py:43
+msgid "button_add_next_week_program"
+msgstr ""
+
+#: src/keys.py:44
+msgid "button_add_individual_program"
+msgstr ""
+
+#: src/admin/handlers.py:35
+msgid "new_admin_successfully_added"
+msgstr "Новый админ бота добавлен успешно"
+
+#: src/admin/handlers.py:48
+#, fuzzy
+msgid "admin_panel_main"
+msgstr "Админ панель"
+
+#: src/admin/handlers.py:59
+msgid "entry_add_exercise_form"
+msgstr "Добавь новое упражнение по форме"
+
+#: src/admin/handlers.py:59 src/admin/handlers.py:74
+#, fuzzy
+msgid "add_exercise_rules"
+msgstr "Добавь новое упражнение по форме"
+
+#: src/admin/handlers.py:73
+msgid "error_incorrect_exercise_input"
+msgstr "Некорректная форма нового добавления упражнения.\n"
+
+#: src/admin/handlers.py:89
+msgid "exercise_is_already_exists"
+msgstr "Упражнение уже есть в базе данных!"
+
+#: src/admin/handlers.py:93
+msgid "exercise_successfully_added"
+msgstr "Упражнение успешно добавлено!"
+
+#: src/admin/handlers.py:100
+msgid "admin_panel_entry_add_next_week_program"
+msgstr ""
+"Добавь новую программу тренировки на следующую неделю.\n"
+"Принимаются только фотографии С КОМПРЕССИЕЙ ДО 10 ШТУК!"
+
+#: src/admin/handlers.py:105
+msgid "admin_panel_entry_add_current_week_program"
+msgstr ""
+"Добавь новую программу тренировки на эту неделю.\n"
+"Принимаются только фотографии С КОМПРЕССИЕЙ ДО 10 ШТУК!"
+
+#: src/admin/handlers.py:114 src/admin/handlers.py:155
+msgid "error_workout_week_program_already_exists"
+msgstr "Программа тренировки на эту неделю уже есть в базе!"
+
+#: src/admin/handlers.py:120
+#, fuzzy
+msgid "add_workout_program_rules"
+msgstr "Программа тренировки актуальна на текущую неделю"
+
+#: src/admin/handlers.py:158
+msgid "workout_program_successfully_added"
+msgstr "Прошрамма тренировки успешно добавлена"
+
+#: src/entry/handlers.py:17
+#, fuzzy
+msgid "main_menu_placeholder"
+msgstr "Главное меню"
+
+#: src/entry/handlers.py:24
+msgid "entry_welcome_message {full_name}"
+msgstr ""
+"Привет, {full_name}!\n"
+"Отличный час для тренировки!"
+
+#: src/entry/handlers.py:31
+msgid "entry_test"
+msgstr "Это тестовое сообщение"
+
+#: src/exercises/handlers.py:18
+#, fuzzy
+msgid "input_exercise_name_placeholder"
+msgstr "Введите название упражнения"
+
+#: src/exercises/handlers.py:23
+msgid "exercises_input_name_message"
+msgstr "Впиши название упражнения"
+
+#: src/exercises/handlers.py:24
+msgid "exercises_count {count}"
+msgstr ""
+
+#: src/exercises/handlers.py:39
+#, fuzzy
+msgid "error_exercise_not_found"
+msgstr "Упражнение не найдено"
+
+#: src/exercises/handlers.py:48
+msgid "exercises_multiple_result_search_query"
+msgstr ""
+
+#: src/workout_programs/handlers.py:17
+#, fuzzy
+msgid "error_no_actual_workout_week_program_exists"
+msgstr "Какая-либо программа тренировки в базе отсутствует"
+
+#: src/workout_programs/handlers.py:22
+#, fuzzy
+msgid "workout_program_is_actual"
+msgstr "Программа тренировки актуальна на текущую неделю"
+
+#~ msgid "workout_program_is_actual"
+#~ msgstr "Программа тренировки актуальна на текущую неделю"
+
+#~ msgid "workout_program_is_old_for_{weeks}_weeks"
+#~ msgstr "Программа тренировки устарела на количество недель от текущей: {weeks}"
+
+#~ msgid "workout_program_is_for_future"
+#~ msgstr "Это будущая программа тренировки"
+
