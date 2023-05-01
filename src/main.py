@@ -5,10 +5,10 @@ from pprint import pprint
 from aiogram.types import BotCommand
 from aiogram.dispatcher import Dispatcher
 
-from entry.handlers import dp
-from admin.handlers import dp
-from exercises.handlers import dp
-from workout_programs.handlers import dp
+from src.entry.handlers import dp
+from src.admin.handlers import dp
+from src.exercises.handlers import dp
+from src.workout_programs.handlers import dp
 
 from src.db import init_db
 
@@ -32,8 +32,11 @@ async def on_start(_dispatcher: Dispatcher) -> None:
     await set_commands()
 
 
-if __name__ == '__main__':
-    from aiogram import executor, Dispatcher
-
+def main():
+    from aiogram import executor
     executor.start_polling(dispatcher=dp, skip_updates=True, on_startup=on_start,)
+
+
+if __name__ == '__main__':
+    main()
 

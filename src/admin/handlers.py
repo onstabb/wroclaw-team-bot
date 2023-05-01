@@ -26,7 +26,6 @@ from src.workout_programs import exceptions as workout_program_exceptions
 logger: logging.Logger = logging.getLogger("AdminPanel")
 
 
-
 @dp.message_handler(BotAdminFilter(), Command("setadmin"), state="*")
 async def set_user_admin(message: types.Message):
     _split: list[str] = message.text.split(" ")
