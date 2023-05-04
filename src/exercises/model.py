@@ -34,6 +34,11 @@ async def get_count() -> int:
 async def search_exercise(query: str) -> list[Exercise]:
     query = prepare_text(query)
     exercises: list[Exercise] = await Exercise.find(RegEx(Exercise.keyname, f"^{query}")).to_list()
+
+    for exercise in exercises:
+        if query == exercise.name:
+            return [exercise]
+
     return exercises
 
 

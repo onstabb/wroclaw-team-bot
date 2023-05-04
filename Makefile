@@ -3,4 +3,4 @@ install:
 	poetry install
 
 start:
-	poetry run python /src/main.py
+	poetry run python run.py

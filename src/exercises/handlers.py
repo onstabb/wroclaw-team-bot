@@ -4,6 +4,7 @@ from aiogram.utils.markdown import hbold
 
 from src.loader import dp
 from src.exercises import model
+from src.exercises.helpers import prepare_text
 from src.exercises.states import FindExercise
 from src.i18n import _
 from src.keys import TextKeys, TextKeyBuilder
@@ -29,7 +30,7 @@ async def input_exercise_name(message: types.Message, state: FSMContext) -> None
 
 @dp.message_handler(state=FindExercise.input_name.state)
 async def find_exercise(message: types.Message) -> None:
-    exercise_name: str = message.text.lower()
+    exercise_name: str = message.text
     exercises: list[model.Exercise] = await model.search_exercise(exercise_name)
 
     markup: types.ReplyKeyboardMarkup = types.ReplyKeyboardMarkup(resize_keyboard=True)
